@@ -1,11 +1,11 @@
-package com.bolsadeideas.springboot.webflux.app.models;
+package com.springboot.webflux.apirest.app.models;
 
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
 import java.util.Date;
 
-@Document(collation = "productos")
+@Document(collection = "productos")
 public class Producto {
 
     @Id
